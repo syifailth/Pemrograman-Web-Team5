@@ -1,0 +1,49 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="style.css">
+  </link>
+</head>
+
+<body>
+  <div class="modal">
+    <div class="modal-content">
+      <input class="modal-title" placeholder="Title" type="text">
+      <input class="modal-text isi" placeholder="Take a note..." type="text">
+      <span class="modal-close-button">Close</span>
+      <span class="modal-edit-button">Save Change</span>
+      <span class="modal-delete-button" id="deleteNote">Delete</span>
+    </div>
+  </div>
+  <main>
+    <header>
+      <h2 class="header-title">Note By Team 5</h2>
+    </header>
+    <div id="form-container">
+      <form id="form" autocomplete="off">
+        <input id="note-title" placeholder="Title" type="text">
+        <input id="note-text" placeholder="Take a note..." type="text">
+        <div id="form-buttons">
+          <button type="submit" id="submit-button">Submit</button>
+          <button type="button" id="form-close-button">Close</button>
+        </div>
+      </form>
+    </div>
+    <div id="kotak-notes">
+        <h3>My Notes</h3><hr style="border:solid 1px;  margin: auto; width: 50%; margin-bottom: 5vh;">
+        <div class="note">
+            <div class="note-title"><p>teeesstt</p></div>
+            <div class="note-text"><p>isi</p></div>
+        </div>
+        <div class="note">
+            <div class="note-title"><p>teeesstt</p></div>
+            <div class="note-text"><p>isi</p></div>
+        </div>
+    </div>
+  </main>
+  <script src="app.js"></script>
+</body>
+
+</html>
+
+<!-- https://google.com/keep -->
