@@ -20,11 +20,11 @@
       <h2 class="header-title">Note By Team 5</h2>
     </header>
     <div id="form-container">
-      <form id="form" autocomplete="off">
-        <input id="note-title" placeholder="Title" type="text">
-        <input id="note-text" placeholder="Take a note..." type="text">
+      <form id="form" autocomplete="off" action="add.php" method="POST">
+        <input id="note-title" placeholder="Title" type="text" name="judul">
+        <input id="note-text" placeholder="Take a note..." type="text" name="isi">
         <div id="form-buttons">
-          <button type="submit" id="submit-button">Submit</button>
+          <button type="submit" id="submit-button" name="notepad">Submit</button>
           <button type="button" id="form-close-button">Close</button>
         </div>
       </form>
