@@ -1,0 +1,13 @@
+buat database baru misalnya "coba5"
+nah terus buat tabel misalnya "note"
+nah strukturnya ada id dengan primary key dan auto increment nyala
+terus judul dengan varchar(255)
+terus isi dengan tipe text
+dah sampe sini ae harusnya mah
+
+nah terus gw nyoba tambahin date dengan tipe datetime dimana defaultnya current_timestamp()
+terus extranya on update current_timestamp
+jdi ini bakal ngasih tau waktu pas masuknya data ke database
+nah 'harusnya' klo semisal datanya di update 'hrsnya' waktunya juga ke update
+tpi blm nyoba ehe...
+dah gitu ae sih
