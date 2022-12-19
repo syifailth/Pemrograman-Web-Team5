@@ -1,13 +1,22 @@
-* {
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Noto+Serif+JP&display=swap");
+
+.nanas{
+    background-color: #8B7E74;
+    font-family: 'Noto Serif JP', serif;
+}
+.konten{
+    padding: 7vh;
+    background-color: #C7BCA1;
+    height: 100vh;        
+    position: relative;
+}
+*{
     margin: 0;
     padding: 0;
-    font-family: "Google Sans", sans-serif;
+    font-family: 'Noto Serif JP', serif;
     box-sizing: border-box;
-  }
-  
-  html,
-  body {
-    background-color: #C7BCA1;
+}
+html, body {
     color: #65647C;
     font-size: 15px;
     margin: 0;
@@ -15,26 +24,23 @@
     overflow-x: hidden;
     overflow-y: auto;
     padding: 0;
-  }
-  
-  main {
+}
+main {
     margin: 0 auto;
     max-width: 900px;
-  }
- 
-  #form-container {
+}
+#form-container {
     border-radius: 8px;
     border: 0.5px solid #d3d3d3;
     box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.302),
-      0 2px 6px 2px rgba(60, 64, 67, 0.149);
+    0 2px 6px 2px rgba(60, 64, 67, 0.149);
     margin: 32px auto 16px auto;
     max-width: 496px;
     transition-duration: 0.218s;
     transition-property: background, border, opacity, box-shadow, transform;
     transition-timing-function: ease-in;
-  }
-  
-  #form {
+}
+#form {
     position: relative;
     border: none;
     margin: 1px;
@@ -43,29 +49,26 @@
     transition-property: background, border, opacity, box-shadow, transform;
     transition-timing-function: ease-in;    
     background-color: #65647C;
-  } 
-  
-  header {
+} 
+header {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 2em;
-  }
-  
-  .header-title {
+}  
+.header-title h2{
     color: #65647C;
     font-size: 2rem;
-    padding-top: 4px;
+    padding-top: 10vh;
     padding-left: 4px;
-  }
-  
-  #notes {
+    font-family: 'DM Serif Display', serif;
+}
+#notes {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-  }
-  
-  #note-text, #note-title {
+}
+#note-text, #note-title {
     width: calc(100% - 10px);
     min-height: 43px;
     margin: 0 5px;
@@ -80,9 +83,8 @@
     position: relative;
     background-color: #65647C;
     color: #F1D3B3;
-  }
-  
-  #note-title {
+}
+#note-title {
     display: none;
     width: calc(100% - 10px);
     min-height: 43px;
@@ -92,29 +94,23 @@
     font-weight: 500;
     line-height: 1.5rem;
     border: 0;
-  }
-  
-  #form:focus,
-  input:focus {
+}
+#form:focus, input:focus {
     outline: none;
-  }
-  
-  ::placeholder {
+}
+::placeholder {
     margin-top: 20vh;
     display: flex;
     align-items: center;
     flex-direction: column;
     color: #F1D3B3;
-  }
-
-  #form-buttons {
+}
+#form-buttons {
     display: none;
     text-align: right;
-
-  }
-
-  #submit-button, #form-update-button,
-  #form-close-button, #form-home-button {
+}
+#submit-button, #form-update-button,
+#form-close-button, #form-home-button {
     margin: 5px;
     box-sizing: border-box;
     color: rgba(0, 0, 0, 0.87);
@@ -131,19 +127,16 @@
     width: 15vh;
     border-color: transparent !important;
     background-color: #C7BCA1;
-  }
-  a{
+}
+a{
     text-decoration: none;
     color: rgba(0, 0, 0, 0.87);
-  }
-  #submit-button:hover,
-  #form-close-button:hover,
-  #form-update-button:hover,
-  #form-home-button:hover {
+}
+#submit-button:hover, #form-close-button:hover, #form-update-button:hover, 
+#form-home-button:hover {
     background-color: #8B7E74;
-  }
-  
-  .note {
+}
+.note {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -161,14 +154,12 @@
     transition-duration: 0.218s;
     transition-property: background, border, opacity, box-shadow, transform;
     transition-timing-function: ease-in;
-  }
-  
-  .note:hover {
+}
+.note:hover {
     box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.302),
-      0 1px 3px 1px rgba(60, 64, 67, 0.149);
-  }
-  
-  .note-title {
+    0 1px 3px 1px rgba(60, 64, 67, 0.149);
+}
+.note-title {
     padding-top: 12px;
     letter-spacing: 0.00625em;
     font-size: 1rem;
@@ -182,9 +173,8 @@
     outline: none;
     white-space: pre-wrap;
     word-wrap: break-word;
-  }
-  
-  .note-text {
+}
+.note-text {
     font-size: 1.125rem;
     font-weight: 400;
     line-height: 1.5rem;
@@ -196,10 +186,10 @@
     outline: none;
     white-space: pre-wrap;
     word-wrap: break-word;
-  }
-  
-  
-  h3{
+}
+h3{
     text-align: center;
     padding: 5vh;
-  }
+    color: #65647C;
+    font-family: 'Noto Serif JP', serif;;
+}
