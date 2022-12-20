@@ -1,8 +1,8 @@
 <?php
-$host = 'localhost';
-$db = 'coba5';
-$usr = 'root';
-$pwd = '';
+$host = 'sql108.byethost4.com';
+$db = 'b4_33234874_coba5';
+$usr = 'b4_33234874';
+$pwd = 'notenote5';
 
 // parameter = hostname, username, password, database
 $conn = mysqli_connect($host, $usr, $pwd, $db); //true|false
